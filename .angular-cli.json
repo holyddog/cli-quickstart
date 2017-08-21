@@ -1,0 +1,27 @@
+{
+    "project": {
+        "name": "cli-quickstart"
+    },
+    "apps": [{
+        "root": "src",
+        "outDir": "dist",
+        "assets": [
+            "assets"
+        ],
+        "index": "index.html",
+        "main": "main.ts",
+        "polyfills": "polyfills.ts",
+        "prefix": "",
+        "styles": [],
+        "scripts": [],
+        "environmentSource": "environments/config.ts",
+        "environments": {
+            "dev": "environments/config.ts",
+            "prod": "environments/config.prod.ts"
+        }
+    }],
+    "defaults": {
+        "styleExt": "css",
+        "component": {}
+    }
+}
